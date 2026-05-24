@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VisionRelic | AI Governance & Delivery Leadership</title>
+<meta name="description" content="VisionRelic — boutique B2B consultancy specialising in AI governance, ISO 42001 implementation, and senior delivery leadership across EMEA and the US.">
+<meta property="og:title" content="VisionRelic | AI Governance & Delivery Leadership">
+<meta property="og:description" content="We make AI governance operational — not just documented. ISO 42001 implementation, EU AI Act readiness, and senior delivery leadership for B2B organizations.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index, follow">
+<meta name="author" content="VisionRelic">
+<link rel="canonical" href="https://www.visionrelic.com">
+<meta name="keywords" content="ISO 42001 consultant, AI governance consultant, ISO 42001 implementation, EU AI Act compliance, AI management system, AIMS implementation, responsible AI consultant, fractional delivery manager, AI governance EMEA, ISO 42001 lead implementer, AI governance framework, AI compliance consulting, fractional program manager">
+<meta property="og:url" content="https://www.visionrelic.com">
+<meta property="og:site_name" content="VisionRelic">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="https://www.visionrelic.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="VisionRelic — AI Governance and Senior Delivery Leadership">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="VisionRelic | AI Governance & Delivery Leadership">
+<meta name="twitter:description" content="ISO 42001 implementation and senior delivery leadership for B2B organizations across EMEA and the US. PECB certified. EU AI Act ready.">
+<meta name="twitter:image" content="https://www.visionrelic.com/og-image.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "VisionRelic",
+  "description": "Boutique B2B consultancy specialising in AI governance, ISO 42001 implementation, and senior delivery leadership across EMEA and the US.",
+  "url": "https://www.visionrelic.com",
+  "email": "info@visionrelic.com",
+  "areaServed": ["Europe", "United States"],
+  "serviceType": ["AI Governance Consulting","ISO 42001 Implementation","EU AI Act Compliance","Senior Delivery Leadership","Fractional Program Management"],
+  "knowsLanguage": ["en", "de", "ar"],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "credentialCategory": "Professional Certification",
+    "name": "ISO/IEC 42001 Lead Implementer",
+    "recognizedBy": { "@type": "Organization", "name": "PECB" }
+  }
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@300;400;700;800&family=DM+Sans:wght@300;400;500&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@300;400;700;800&family=DM+Sans:wght@300;400;500&display=swap"></noscript>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="6e191f7a-090d-434d-ae56-256df819110c"></script>
+<style>
+:root {
+  --navy: #0a0f1e;
+  --charcoal: #111827;
+  --blue: #3b82f6;
+  --blue-dark: #2563eb;
+  --cyan: #06b6d4;
+  --text-pri: #f9fafb;
+  --text-sec: #9ca3af;
+  --border: #1f2937;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+img, svg { display: block; max-width: 100%; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--navy);
+  color: var(--text-pri);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
+.logo-link { display: flex; align-items: center; text-decoration: none; }
+.logo-img { height: 44px; width: auto; display: block; object-fit: contain; transition: opacity 0.2s ease; }
+.logo-img:hover { opacity: 0.85; }
+.logo-img-footer { height: 32px; width: auto; display: block; object-fit: contain; opacity: 0.7; }
+
+nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 24px 48px; transition: all 0.3s ease;
+}
+nav.scrolled { background: var(--navy); border-bottom: 1px solid var(--border); padding: 18px 48px; }
+.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links a { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 14px; color: var(--text-sec); text-decoration: none; letter-spacing: 0.05em; transition: color 0.2s; }
+.nav-links a:hover { color: var(--text-pri); }
+
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+.hamburger span { display: block; width: 20px; height: 2px; background: var(--text-sec); }
+
+.mobile-nav {
+  position: fixed; inset: 0; z-index: 200; background: var(--navy);
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 36px;
+  opacity: 0; pointer-events: none; transition: opacity 0.25s ease;
+}
+.mobile-nav.open { opacity: 1; pointer-events: all; }
+.mobile-nav a { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 24px; color: var(--text-pri); text-decoration: none; letter-spacing: 0.05em; }
+.mobile-nav a:hover { color: var(--blue); }
+.mobile-nav-close { position: absolute; top: 24px; right: 48px; background: none; border: none; color: var(--text-sec); font-size: 28px; cursor: pointer; line-height: 1; }
+
+#hero {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  background-image: radial-gradient(circle, #1e3a5f 1px, transparent 1px);
+  background-size: 28px 28px; background-color: var(--navy);
+  padding: 120px 24px 100px;
+}
+.hero-inner { max-width: 780px; text-align: center; margin: 0 auto; display: flex; flex-direction: column; align-items: center; }
+.hero-shield { animation: fadeUp 0.5s ease both; }
+.hero-label { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 11px; color: var(--blue); letter-spacing: 0.25em; text-transform: uppercase; margin-top: 20px; animation: fadeUp 0.5s ease 0.05s both; }
+.hero-h1 { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 58px; color: var(--text-pri); line-height: 1.1; margin-top: 16px; animation: fadeUp 0.5s ease 0.3s both; }
+.hero-sub { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 19px; color: var(--text-sec); line-height: 1.7; max-width: 620px; margin: 24px auto 0; animation: fadeUp 0.5s ease 0.5s both; }
+.hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 36px; animation: fadeUp 0.5s ease 0.7s both; }
+.btn-primary { background: var(--blue); color: #fff; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; padding: 14px 32px; border-radius: 4px; border: none; cursor: pointer; text-decoration: none; transition: background 0.2s ease; display: inline-block; }
+.btn-primary:hover { background: var(--blue-dark); }
+.btn-secondary { background: transparent; border: 1px solid var(--border); color: var(--text-sec); font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 14px; padding: 14px 32px; border-radius: 4px; cursor: pointer; text-decoration: none; transition: border-color 0.2s ease, color 0.2s ease; display: inline-block; }
+.btn-secondary:hover { border-color: var(--blue); color: var(--text-pri); }
+.hero-clients { margin-top: 48px; font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 12px; color: #4b5563; letter-spacing: 0.1em; animation: fadeUp 0.5s ease 0.9s both; }
+.hero-trust { margin-top: 16px; font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 11px; color: #4b5563; letter-spacing: 0.08em; animation: fadeUp 0.5s ease 1.1s both; }
+
+@keyframes fadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+#problem { background: var(--charcoal); padding: 72px 40px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.problem-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+.section-rule { width: 60px; height: 1px; background: var(--blue); margin: 0 auto 36px; }
+.problem-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 24px; color: var(--text-pri); line-height: 1.5; }
+.problem-body { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 17px; color: var(--text-sec); line-height: 1.8; margin-top: 20px; }
+
+.section-label { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 11px; color: var(--blue); letter-spacing: 0.25em; text-transform: uppercase; margin-bottom: 16px; display: block; }
+.section-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 36px; color: var(--text-pri); line-height: 1.2; margin-bottom: 48px; }
+
+#approach { background: var(--navy); padding: 100px 40px; }
+.approach-inner { max-width: 1100px; margin: 0 auto; }
+.approach-title { max-width: 560px; margin-bottom: 64px; }
+.approach-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; }
+.approach-col { border-top: 2px solid var(--blue); padding-top: 28px; }
+.col-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 16px; color: var(--text-pri); margin-bottom: 16px; }
+.col-body { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 15px; color: var(--text-sec); line-height: 1.8; }
+
+#services { background: var(--navy); padding: 0 40px 100px; }
+.services-inner { max-width: 1100px; margin: 0 auto; }
+.services-rule { border: none; border-top: 1px solid var(--border); margin-bottom: 80px; }
+.services-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; margin-top: 48px; }
+.service-card { background: var(--charcoal); border: 1px solid var(--border); border-left: 3px solid var(--blue); border-radius: 4px; padding: 36px 32px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+.service-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(59,130,246,0.12); }
+.card-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 17px; color: var(--text-pri); margin-bottom: 14px; }
+.card-body { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 14px; color: var(--text-sec); line-height: 1.8; margin-bottom: 20px; }
+.card-footer { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 12px; color: #4b5563; font-style: italic; }
+
+#assessment { background: var(--charcoal); padding: 100px 40px; border-top: 1px solid var(--border); }
+.assessment-inner { max-width: 780px; margin: 0 auto; }
+.assessment-subtitle { font-family: 'DM Sans', sans-serif; font-size: 17px; font-weight: 300; color: var(--text-sec); margin-bottom: 48px; line-height: 1.7; }
+.assessment-card { background: var(--navy); border: 1px solid var(--border); border-radius: 4px; padding: 48px; }
+.progress-wrap { background: var(--border); height: 2px; border-radius: 2px; margin-bottom: 12px; overflow: hidden; }
+.progress-bar { height: 100%; background: var(--blue); width: 20%; transition: width 0.4s ease; border-radius: 2px; }
+.progress-label { font-family: 'DM Sans', sans-serif; font-size: 12px; font-weight: 300; color: #4b5563; letter-spacing: 0.1em; margin-bottom: 36px; }
+.q-block { display: none; }
+.q-block.active { display: block; animation: fadeUp 0.4s ease forwards; }
+.q-text { font-family: 'Syne', sans-serif; font-size: 18px; font-weight: 700; color: var(--text-pri); line-height: 1.5; margin-bottom: 28px; }
+.q-options { display: flex; flex-direction: column; gap: 12px; }
+.q-btn { background: var(--charcoal); border: 1px solid var(--border); border-radius: 4px; color: var(--text-sec); font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 400; padding: 16px 20px; text-align: left; cursor: pointer; transition: all 0.2s ease; line-height: 1.5; }
+.q-btn:hover { border-color: var(--blue); color: var(--text-pri); background: #0f1929; }
+.q-btn.selected { border-color: var(--blue); color: var(--text-pri); background: #0f1929; }
+.result-block { text-align: center; animation: fadeUp 0.5s ease forwards; }
+.result-score-label { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 400; color: var(--blue); letter-spacing: 0.25em; margin-bottom: 16px; }
+.result-heading { font-family: 'Syne', sans-serif; font-size: 28px; font-weight: 800; color: var(--text-pri); margin-bottom: 20px; line-height: 1.2; }
+.result-body { font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 400; color: var(--text-sec); line-height: 1.9; max-width: 560px; margin: 0 auto 32px; }
+.result-cta { display: inline-block; background: var(--blue); color: #fff; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.08em; padding: 14px 32px; border-radius: 4px; text-decoration: none; transition: background 0.2s ease; cursor: pointer; border: none; }
+.result-cta:hover { background: var(--blue-dark); }
+.result-restart { display: block; margin-top: 20px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 300; color: #4b5563; cursor: pointer; text-decoration: underline; background: none; border: none; }
+.result-restart:hover { color: var(--text-sec); }
+.countdown-wrap { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border); }
+.countdown-label { font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 500; color: #9ca3af; letter-spacing: 0.2em; margin-bottom: 16px; }
+.countdown-grid { display: flex; gap: 16px; }
+.countdown-unit { display: flex; flex-direction: column; align-items: center; flex: 1; background: #0a0f1e; border: 1px solid var(--border); border-radius: 4px; padding: 12px 8px; }
+.countdown-num { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 800; color: var(--blue); line-height: 1; letter-spacing: 0.05em; }
+.countdown-sub { font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 400; color: #9ca3af; margin-top: 6px; letter-spacing: 0.1em; }
+
+#credentials { background: var(--charcoal); padding: 100px 40px; border-top: 1px solid var(--border); }
+.credentials-inner { max-width: 1100px; margin: 0 auto; }
+.credentials-title { margin-bottom: 64px; }
+.credentials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 80px; }
+.col-heading { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; color: var(--text-pri); letter-spacing: 0.1em; margin-bottom: 28px; }
+.cert-item { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 16px; }
+.cert-check { color: var(--blue); font-size: 14px; margin-top: 2px; flex-shrink: 0; }
+.cert-text { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 15px; color: var(--text-sec); line-height: 1.5; }
+.cert-footnote { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 12px; color: #4b5563; font-style: italic; margin-top: 24px; line-height: 1.6; }
+.delivery-para { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 15px; color: var(--text-sec); line-height: 1.9; margin-bottom: 40px; }
+.stats { display: flex; gap: 40px; flex-wrap: wrap; }
+.stat-num { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 28px; color: var(--blue); }
+.stat-label { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 13px; color: var(--text-sec); margin-top: 4px; letter-spacing: 0.05em; }
+
+#contact { background: var(--navy); padding: 100px 40px; border-top: 1px solid var(--border); }
+.contact-inner { max-width: 1100px; margin: 0 auto; }
+.contact-subtitle { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 17px; color: var(--text-sec); margin-top: 12px; margin-bottom: 64px; }
+.contact-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 80px; }
+.contact-item { display: block; margin-bottom: 20px; }
+.contact-item-label { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 11px; color: #4b5563; letter-spacing: 0.15em; margin-bottom: 6px; display: block; }
+.contact-item a { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 15px; color: var(--text-sec); text-decoration: none; transition: color 0.2s; }
+.contact-item a:hover { color: var(--blue); }
+.availability-note { margin-top: 36px; padding-top: 28px; border-top: 1px solid var(--border); font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 13px; color: #4b5563; line-height: 1.8; }
+.form-label { font-family: 'DM Sans', sans-serif; font-weight: 400; font-size: 12px; color: var(--text-sec); letter-spacing: 0.08em; display: block; margin-bottom: 8px; }
+.form-input, .form-textarea { width: 100%; background: var(--charcoal); border: 1px solid var(--border); border-radius: 4px; color: var(--text-pri); font-family: 'DM Sans', sans-serif; font-size: 14px; padding: 12px 16px; outline: none; transition: border-color 0.2s ease, box-shadow 0.2s ease; margin-bottom: 20px; display: block; }
+.form-input:focus, .form-textarea:focus { border-color: var(--blue); box-shadow: 0 0 0 2px rgba(59,130,246,0.15); }
+.form-input.error { border-color: #ef4444; }
+.form-textarea { resize: vertical; min-height: 120px; }
+.btn-submit { width: 100%; background: var(--blue); color: #fff; font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; letter-spacing: 0.1em; padding: 15px; border: none; border-radius: 4px; cursor: pointer; transition: background 0.2s ease; }
+.btn-submit:hover { background: var(--blue-dark); }
+.form-success { padding: 40px 0; text-align: center; display: none; }
+.success-check { color: var(--blue); font-family: 'Syne', sans-serif; font-weight: 800; font-size: 32px; }
+.success-msg { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 18px; color: var(--text-pri); margin-top: 16px; }
+.success-sub { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 14px; color: var(--text-sec); margin-top: 8px; }
+
+footer { background: var(--navy); border-top: 1px solid var(--border); padding: 36px 40px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.footer-copy { font-family: 'DM Sans', sans-serif; font-weight: 300; font-size: 12px; color: #4b5563; }
+
+.fade-up { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
+.fade-up.visible { opacity: 1; transform: translateY(0); }
+.fade-up:nth-child(1) { transition-delay: 0s; }
+.fade-up:nth-child(2) { transition-delay: 0.1s; }
+.fade-up:nth-child(3) { transition-delay: 0.2s; }
+.fade-up:nth-child(4) { transition-delay: 0.3s; }
+
+@media (max-width: 768px) {
+  nav { padding: 20px 24px; }
+  nav.scrolled { padding: 16px 24px; }
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .mobile-nav-close { right: 24px; }
+  .hero-h1 { font-size: 36px; }
+  .hero-sub { font-size: 16px; }
+  .section-title { font-size: 28px; }
+  #approach { padding: 72px 24px; }
+  .approach-grid { grid-template-columns: 1fr; }
+  #services { padding: 0 24px 72px; }
+  .services-grid { grid-template-columns: 1fr; }
+  #assessment { padding: 72px 24px; }
+  .assessment-card { padding: 28px 20px; }
+  .q-text { font-size: 16px; }
+  .countdown-grid { gap: 10px; }
+  .countdown-num { font-size: 18px; }
+  #credentials { padding: 72px 24px; }
+  .credentials-grid { grid-template-columns: 1fr; gap: 48px; }
+  #contact { padding: 72px 24px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+  #problem { padding: 56px 24px; }
+  footer { padding: 28px 24px; flex-direction: column; align-items: flex-start; }
+  .hero-trust { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 8px; }
+}
+
+#difference {
+  background: var(--navy);
+  padding: 100px 40px;
+  border-top: 1px solid var(--border);
+}
+.difference-inner { max-width: 1100px; margin: 0 auto; }
+.difference-grid {
+  display: grid;
+  grid-template-columns: 60% 38%;
+  gap: 64px;
+  align-items: start;
+}
+.difference-heading {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--text-pri);
+  line-height: 1.3;
+  margin-bottom: 28px;
+}
+.difference-body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--text-sec);
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+.difference-body-strong {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: var(--text-pri);
+  line-height: 1.9;
+}
+.difference-card {
+  background: var(--charcoal);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--blue);
+  border-radius: 4px;
+  padding: 32px;
+}
+.difference-card-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--blue);
+  letter-spacing: 0.2em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+.difference-card-heading {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-pri);
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.difference-card-body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-sec);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.difference-card-rule {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 16px 0;
+}
+.difference-card-cta {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--blue);
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: opacity 0.2s;
+}
+.difference-card-cta:hover { opacity: 0.75; }
+@media (max-width: 768px) {
+  #difference { padding: 72px 24px; }
+  .difference-grid { grid-template-columns: 1fr; gap: 40px; }
+}
+
+</style>
+</head>
+<body>
+
+<nav id="main-nav" aria-label="Main navigation">
+  <a href="#" class="logo-link" aria-label="VisionRelic — return to top">
+    <img src="https://raw.githubusercontent.com/askrabi/visionrelic-website/main/logo.png"
+         alt="VisionRelic — AI Governance and Senior Delivery Leadership"
+         class="logo-img">
+  </a>
+  <ul class="nav-links">
+    <li><a href="#approach">Approach</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#credentials">Credentials</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-nav" id="mobile-nav">
+  <button class="mobile-nav-close" id="mobile-nav-close" aria-label="Close menu">&#215;</button>
+  <a href="#approach">Approach</a>
+  <a href="#services">Services</a>
+  <a href="#credentials">Credentials</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<section id="hero" aria-label="Introduction">
+  <div class="hero-inner">
+    <div class="hero-shield">
+      <img src="https://raw.githubusercontent.com/askrabi/visionrelic-website/main/shield.png"
+           alt="VisionRelic Shield"
+           style="height:96px;width:auto;display:block;margin:0 auto;">
+    </div>
+    <p class="hero-label">AI Governance &nbsp;&amp;&nbsp; Senior Delivery Leadership</p>
+    <h1 class="hero-h1">AI Governance Built From the Inside Out</h1>
+    <p class="hero-sub">Most governance frameworks are written by people who have never run a program inside an organization like yours. VisionRelic builds them differently — grounded in years of delivery leadership inside Tier-1 Automotive and Big Tech, the organizations navigating AI at scale before most governance standards existed.</p>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-primary">ENGAGE VISIONRELIC</a>
+      <a href="#approach" class="btn-secondary">Our Approach</a>
+    </div>
+    <p class="hero-clients">Engagements have included:&nbsp;&nbsp;VW Group &nbsp;·&nbsp; Ford &nbsp;·&nbsp; Meta</p>
+    <p class="hero-trust">ISO/IEC 42001 Lead Implementer &nbsp;·&nbsp; EMEA Program Delivery &nbsp;·&nbsp; DE &nbsp;·&nbsp; EN &nbsp;·&nbsp; AR</p>
+  </div>
+</section>
+
+<section id="problem">
+  <div class="problem-inner">
+    <div class="section-rule fade-up"></div>
+    <p class="problem-title fade-up">The market has no shortage of ISO consultants who understand the standard.</p>
+    <p class="problem-body fade-up">It has a shortage of practitioners who can implement it without halting delivery, who understand both the governance framework and how programs actually run. That is the gap VisionRelic operates in.</p>
+  </div>
+</section>
+
+
+<section id="difference">
+  <div class="difference-inner">
+    <div class="difference-grid">
+      <div class="difference-text">
+        <h2 class="difference-heading fade-up">Why It Matters Where You Have Been</h2>
+        <p class="difference-body fade-up">There are two ways to build a governance framework. The first is to read the standard, map the controls, and produce documentation. Most ISO consultants do this well.</p>
+        <p class="difference-body fade-up">The second is to have managed Meta's platform policy compliance programs at scale, converting ambiguous regulatory requirements into structured delivery across three sites in three countries. To have run a four-program VW Group portfolio where a governance failure meant a board-level conversation, not a compliance checkbox.</p>
+        <p class="difference-body-strong fade-up">That experience does not make the standard easier to implement. It makes the framework you build actually survive contact with your organization.</p>
+      </div>
+      <div class="difference-card fade-up">
+        <p class="difference-card-label">Regulatory Update — May 2026</p>
+        <h3 class="difference-card-heading">The Deadline Moved. The Obligation Did Not.</h3>
+        <p class="difference-card-body">The EU AI Act's high-risk AI obligations have been deferred to December 2, 2027 under the Digital Omnibus on AI agreed May 7, 2026. For most organizations, this means more time to build a governance framework that actually works, rather than one assembled under pressure.</p>
+        <hr class="difference-card-rule">
+        <p class="difference-card-body">The organizations that use this window well will arrive at the deadline audit-ready. The ones that treat it as a reprieve will be back to square one in 2027.</p>
+        <a href="#contact" class="difference-card-cta">Start building now &rarr;</a>
+        <div class="countdown-wrap">
+          <p class="countdown-label">Time to December 2, 2027</p>
+          <div class="countdown-grid">
+            <div class="countdown-unit"><span class="countdown-num" id="cd-days">000</span><span class="countdown-sub">Days</span></div>
+            <div class="countdown-unit"><span class="countdown-num" id="cd-hours">00</span><span class="countdown-sub">Hours</span></div>
+            <div class="countdown-unit"><span class="countdown-num" id="cd-mins">00</span><span class="countdown-sub">Minutes</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="approach">
+  <div class="approach-inner">
+    <span class="section-label fade-up">OUR APPROACH</span>
+    <h2 class="section-title approach-title fade-up">Governance Built Into Delivery. Not Bolted On.</h2>
+    <div class="approach-grid">
+      <div class="approach-col fade-up">
+        <h3 class="col-title">Implement, Don't Just Advise</h3>
+        <p class="col-body">We build Artificial Intelligence Management Systems that function: risk registers with owners, escalation paths that get used, documentation that reflects how the organization actually operates. Structured around ISO/IEC 42001, built to survive contact with reality.</p>
+      </div>
+      <div class="approach-col fade-up">
+        <h3 class="col-title">Inside Your Delivery Cycle</h3>
+        <p class="col-body">Our delivery background means we do not slow your operation down to install governance. We work inside your existing cadence: sprints, steering committees, release cycles. Compliance is built into the motion rather than parallel to it.</p>
+      </div>
+      <div class="approach-col fade-up">
+        <h3 class="col-title">Cross-Border by Design</h3>
+        <p class="col-body">Complex programs across EMEA and the US require more than technical knowledge. We operate across jurisdictions, stakeholder cultures, and regulatory environments. German, English, and Arabic, natively across all three.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="services-inner">
+    <hr class="services-rule">
+    <span class="section-label fade-up">SERVICES</span>
+    <h2 class="section-title fade-up">Where VisionRelic Engages</h2>
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <h3 class="card-title">Compliance-to-Delivery Integration</h3>
+        <p class="card-body">For organizations where compliance and delivery operate in silos. We convert regulatory requirements into sprint-ready workstreams: structured processes that close the gap between what the standard requires and what the team ships.</p>
+        <p class="card-footer">Process design · Cross-functional alignment · Regulated Agile delivery</p>
+      </div>
+      <div class="service-card fade-up">
+        <h3 class="card-title">ISO 42001 Implementation</h3>
+        <p class="card-body">End-to-end AIMS design and build, aligned to ISO/IEC 42001. Gap assessment, risk taxonomy, policy frameworks, controls, and documentation, structured for audit readiness from day one. EU AI Act alignment included.</p>
+        <p class="card-footer">Gap assessment · AIMS build · Audit readiness</p>
+      </div>
+      <div class="service-card fade-up">
+        <h3 class="card-title">AI Governance Advisory</h3>
+        <p class="card-body">For organizations navigating the EU AI Act, enterprise procurement requirements, or internal AI risk classification. We translate regulatory obligations into decisions your teams can act on immediately.</p>
+        <p class="card-footer">EU AI Act · Risk classification · Policy frameworks</p>
+      </div>
+      <div class="service-card fade-up">
+        <h3 class="card-title">Senior Delivery Leadership</h3>
+        <p class="card-body">Fractional program and delivery leadership for AI and B2B SaaS environments. Portfolio governance, executive reporting, stakeholder alignment, and distressed program recovery across distributed teams.</p>
+        <p class="card-footer">Portfolio governance · PMO setup · Program recovery</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="assessment" aria-label="Readiness Assessment">
+  <div class="assessment-inner">
+    <span class="section-label fade-up">SELF-ASSESSMENT</span>
+    <h2 class="section-title fade-up">Where Does Your Organization Stand?</h2>
+    <p class="assessment-subtitle fade-up">Five questions. No email required. An honest read of your AI governance readiness in under two minutes.</p>
+    <div class="assessment-card fade-up">
+      <div id="assessment-questions">
+        <div class="progress-wrap"><div class="progress-bar" id="progress-bar"></div></div>
+        <p class="progress-label" id="progress-label">Question 1 of 5</p>
+        <div class="q-block active" data-q="1">
+          <p class="q-text">Does your organization have a documented inventory of all AI systems currently in use or development?</p>
+          <div class="q-options">
+            <button class="q-btn" onclick="answer(1,'yes',this)">Yes — documented and maintained</button>
+            <button class="q-btn" onclick="answer(1,'partial',this)">Partially — some systems are listed</button>
+            <button class="q-btn" onclick="answer(1,'no',this)">No — we don't have this yet</button>
+          </div>
+        </div>
+        <div class="q-block" data-q="2">
+          <p class="q-text">Have you conducted a risk assessment for your AI systems aligned to a recognized framework such as ISO 42001 or the NIST AI RMF?</p>
+          <div class="q-options">
+            <button class="q-btn" onclick="answer(2,'yes',this)">Yes — formal assessment completed</button>
+            <button class="q-btn" onclick="answer(2,'partial',this)">Partially — informal review only</button>
+            <button class="q-btn" onclick="answer(2,'no',this)">No — not started</button>
+          </div>
+        </div>
+        <div class="q-block" data-q="3">
+          <p class="q-text">Do you have defined policies covering responsible AI use, bias management, and human oversight of AI decisions?</p>
+          <div class="q-options">
+            <button class="q-btn" onclick="answer(3,'yes',this)">Yes — policies are documented and communicated</button>
+            <button class="q-btn" onclick="answer(3,'partial',this)">Partially — some policies exist informally</button>
+            <button class="q-btn" onclick="answer(3,'no',this)">No — policies are not yet in place</button>
+          </div>
+        </div>
+        <div class="q-block" data-q="4">
+          <p class="q-text">Is your AI governance function integrated into your delivery cycle, meaning compliance requirements actively shape how AI systems are built and deployed?</p>
+          <div class="q-options">
+            <button class="q-btn" onclick="answer(4,'yes',this)">Yes — governance is built into delivery</button>
+            <button class="q-btn" onclick="answer(4,'partial',this)">Partially — reviewed post-deployment only</button>
+            <button class="q-btn" onclick="answer(4,'no',this)">No — governance and delivery are separate</button>
+          </div>
+        </div>
+        <div class="q-block" data-q="5">
+          <p class="q-text">Could your organization demonstrate AI governance compliance to an enterprise client or regulatory body today, with documented evidence?</p>
+          <div class="q-options">
+            <button class="q-btn" onclick="answer(5,'yes',this)">Yes — we have audit-ready documentation</button>
+            <button class="q-btn" onclick="answer(5,'partial',this)">Partially — some evidence exists</button>
+            <button class="q-btn" onclick="answer(5,'no',this)">No — we could not demonstrate this today</button>
+          </div>
+        </div>
+
+      </div>
+      <div id="assessment-result" style="display:none"></div>
+    </div>
+  </div>
+</section>
+
+<section id="credentials">
+  <div class="credentials-inner">
+    <span class="section-label fade-up">CREDENTIALS</span>
+    <h2 class="section-title credentials-title fade-up">Built on Accountable Delivery</h2>
+    <div class="credentials-grid">
+      <div>
+        <p class="col-heading fade-up">PRACTICE STANDARDS</p>
+        <div class="cert-item fade-up"><span class="cert-check">✓</span><span class="cert-text">ISO/IEC 42001 certified implementation practice</span></div>
+        <div class="cert-item fade-up"><span class="cert-check">✓</span><span class="cert-text">AWS and cloud-native AI delivery</span></div>
+        <div class="cert-item fade-up"><span class="cert-check">✓</span><span class="cert-text">Scaled Agile (SAFe) and Scrum delivery frameworks</span></div>
+        <div class="cert-item fade-up"><span class="cert-check">✓</span><span class="cert-text">ITIL-aligned service and operations management</span></div>
+        <div class="cert-item fade-up"><span class="cert-check">✓</span><span class="cert-text">EU AI Act and regulatory compliance advisory</span></div>
+        <p class="cert-footnote fade-up">All practice standards are maintained through active professional certification.</p>
+      </div>
+      <div>
+        <p class="col-heading fade-up">CLIENT BACKGROUND</p>
+        <p class="delivery-para fade-up">VisionRelic has delivered programs for organizations where failure was not an option: Tier-1 Automotive including VW Group and Ford, and global technology platforms including Meta. Engagements have been multi-jurisdictional, multi-million Euro in scale, and conducted across distributed teams in high-compliance environments across EMEA.</p>
+        <div class="stats fade-up">
+          <div class="stat-block"><div class="stat-num">EMEA & US</div><div class="stat-label">Operating Region</div></div>
+          <div class="stat-block"><div class="stat-num">Enterprise</div><div class="stat-label">Client Scale</div></div>
+          <div class="stat-block"><div class="stat-num">B2B</div><div class="stat-label">Engagement Model</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact-inner">
+    <span class="section-label fade-up">CONTACT</span>
+    <h2 class="section-title fade-up">Start the Conversation</h2>
+    <p class="contact-subtitle fade-up">B2B engagements only. Project-based and fractional. Remote across EMEA and the US.</p>
+    <div class="contact-grid">
+      <div>
+        <p class="col-heading fade-up">REACH US DIRECTLY</p>
+        <div class="contact-item fade-up">
+          <span class="contact-item-label">EMAIL</span>
+          <a href="mailto:info@visionrelic.com">info@visionrelic.com</a>
+        </div>
+        <div class="availability-note fade-up">VisionRelic operates on a fully distributed model. We work across EMEA and the US without the overhead of on-site presence, with US timezone overlap built into how we engage.</div>
+      </div>
+      <div>
+        <p class="col-heading fade-up">SEND AN ENQUIRY</p>
+        <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+          <input type="hidden" name="form-name" value="contact">
+          <p style="display:none"><label>Do not fill this out: <input name="bot-field"></label></p>
+          <label class="form-label">Name</label>
+          <input class="form-input" type="text" name="name" placeholder="Your name">
+          <label class="form-label">Company</label>
+          <input class="form-input" type="text" name="company" placeholder="Organization">
+          <label class="form-label">Email</label>
+          <input class="form-input" type="email" name="email" placeholder="your@email.com">
+          <label class="form-label">Message</label>
+          <textarea class="form-input form-textarea" name="message" rows="5" placeholder="Describe what you're working on"></textarea>
+          <button type="submit" class="btn-submit">SEND ENQUIRY</button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <div class="success-check">✓</div>
+          <div class="success-msg">Enquiry received.</div>
+          <div class="success-sub">We'll respond within one business day.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <img src="https://raw.githubusercontent.com/askrabi/visionrelic-website/main/logo.png"
+       alt="VisionRelic"
+       class="logo-img-footer">
+  <span class="footer-copy">© 2026 VisionRelic · AI Governance · Senior Delivery Leadership · EMEA &amp; US</span>
+</footer>
+
+<script>
+var nav = document.getElementById('main-nav');
+window.addEventListener('scroll', function() { nav.classList.toggle('scrolled', window.scrollY > 60); });
+
+var hamburger = document.getElementById('hamburger');
+var mobileNav = document.getElementById('mobile-nav');
+var mobileClose = document.getElementById('mobile-nav-close');
+hamburger.addEventListener('click', function() { mobileNav.classList.add('open'); });
+mobileClose.addEventListener('click', function() { mobileNav.classList.remove('open'); });
+mobileNav.querySelectorAll('a').forEach(function(a) { a.addEventListener('click', function() { mobileNav.classList.remove('open'); }); });
+
+var observer = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+}, { threshold: 0.12 });
+document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var form = this;
+  var fields = form.querySelectorAll('.form-input');
+  fields.forEach(function(f) { f.classList.remove('error'); });
+  var name = form.querySelectorAll('input[type="text"]')[0];
+  var company = form.querySelectorAll('input[type="text"]')[1];
+  var email = form.querySelector('input[type="email"]');
+  var msg = form.querySelector('textarea');
+  var emailRe = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  var valid = true;
+  if (!name.value.trim()) { name.classList.add('error'); valid = false; }
+  if (!company.value.trim()) { company.classList.add('error'); valid = false; }
+  if (!emailRe.test(email.value.trim())) { email.classList.add('error'); valid = false; }
+  if (!msg.value.trim()) { msg.classList.add('error'); valid = false; }
+  if (!valid) return;
+  var success = document.getElementById('formSuccess');
+  form.style.opacity = '0'; form.style.transition = 'opacity 0.3s ease';
+  setTimeout(function() { form.style.display = 'none'; success.style.display = 'block'; }, 300);
+});
+
+document.querySelectorAll('.form-input').forEach(function(f) {
+  f.addEventListener('focus', function() { this.classList.remove('error'); });
+});
+
+document.querySelector('footer .logo-img-footer').addEventListener('click', function(e) {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.querySelector('nav .logo-link').addEventListener('click', function(e) {
+  e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+(function() {
+  var deadline = new Date('2027-12-02T00:00:00Z');
+  function updateCountdown() {
+    var now = new Date(), diff = deadline - now;
+    if (diff <= 0) { document.getElementById('cd-days').textContent='000'; document.getElementById('cd-hours').textContent='00'; document.getElementById('cd-mins').textContent='00'; return; }
+    var days = Math.floor(diff / 86400000);
+    var hours = Math.floor((diff % 86400000) / 3600000);
+    var mins = Math.floor((diff % 3600000) / 60000);
+    document.getElementById('cd-days').textContent = String(days).padStart(3,'0');
+    document.getElementById('cd-hours').textContent = String(hours).padStart(2,'0');
+    document.getElementById('cd-mins').textContent = String(mins).padStart(2,'0');
+  }
+  updateCountdown(); setInterval(updateCountdown, 60000);
+})();
+
+(function() {
+  var answers = {}, totalQ = 5;
+  var results = {
+    high: { label:'STRONG FOUNDATION', heading:'Your governance framework is ahead of most.', body:'You have the core elements in place. The next step is formalizing them against ISO 42001 and building the audit trail that makes them verifiable to clients and regulators. VisionRelic can run a structured gap assessment to identify what remains before you are fully audit-ready.' },
+    mid:  { label:'PARTIAL COVERAGE', heading:'You have made a start. The gaps are specific.', body:'Some governance elements exist but they are not connected into a functioning AIMS. This is the most common position for organizations at your stage. The work is not starting from zero, but it is not yet defensible under scrutiny. VisionRelic works with organizations in exactly this position to close the specific gaps without rebuilding what already works.' },
+    low:  { label:'EARLY STAGE', heading:'Your governance framework needs to be built.', body:'Most of the foundational elements are not yet in place. That is not unusual for organizations that have been moving fast on AI adoption. The December 2027 EU AI Act deadline gives you a real window to build this properly. VisionRelic can scope and sequence the work so it fits inside your delivery cycle rather than competing with it.' }
+  };
+  window.answer = function(qNum, value, btn) {
+    answers[qNum] = value;
+    var cur = document.querySelector('.q-block[data-q="'+qNum+'"]');
+    cur.querySelectorAll('.q-btn').forEach(function(b){ b.classList.remove('selected'); });
+    btn.classList.add('selected');
+    setTimeout(function() {
+      if (qNum < totalQ) {
+        cur.classList.remove('active');
+        document.querySelector('.q-block[data-q="'+(qNum+1)+'"]').classList.add('active');
+        document.getElementById('progress-bar').style.width = (qNum/totalQ*100)+'%';
+        document.getElementById('progress-label').textContent = 'Question '+(qNum+1)+' of '+totalQ;
+      } else {
+        document.getElementById('progress-bar').style.width = '100%';
+        showResult();
+      }
+    }, 350);
+  };
+  function scoreAnswers() {
+    var score = 0;
+    Object.values(answers).forEach(function(v){ if(v==='yes') score+=2; if(v==='partial') score+=1; });
+    return score >= 8 ? 'high' : score >= 4 ? 'mid' : 'low';
+  }
+  function showResult() {
+    var r = results[scoreAnswers()];
+    var qWrap = document.getElementById('assessment-questions');
+    var rWrap = document.getElementById('assessment-result');
+    qWrap.style.opacity = '0'; qWrap.style.transition = 'opacity 0.3s ease';
+    setTimeout(function() {
+      qWrap.style.display = 'none'; rWrap.style.display = 'block';
+      rWrap.innerHTML = '<div class="result-block"><p class="result-score-label">'+r.label+'</p><h3 class="result-heading">'+r.heading+'</h3><p class="result-body">'+r.body+'</p><button class="result-cta" onclick="document.getElementById(\'contact\').scrollIntoView({behavior:\'smooth\'})">Talk to VisionRelic</button><button class="result-restart" onclick="restartAssessment()">Start again</button></div>';
+    }, 300);
+  }
+  window.restartAssessment = function() {
+    Object.keys(answers).forEach(function(k){ delete answers[k]; });
+    var qWrap = document.getElementById('assessment-questions');
+    var rWrap = document.getElementById('assessment-result');
+    rWrap.style.display = 'none'; rWrap.innerHTML = '';
+    document.querySelectorAll('.q-block').forEach(function(b){ b.classList.remove('active'); });
+    document.querySelector('.q-block[data-q="1"]').classList.add('active');
+    document.querySelectorAll('.q-btn').forEach(function(b){ b.classList.remove('selected'); });
+    document.getElementById('progress-bar').style.width = '20%';
+    document.getElementById('progress-label').textContent = 'Question 1 of 5';
+    qWrap.style.opacity = '1'; qWrap.style.display = 'block';
+  };
+})();
+</script>
+</body>
+</html>
